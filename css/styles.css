@@ -105,6 +105,10 @@ h1 {
  box-shadow: 0 1px 0 0 #00aeef !important;
 }
 
+.btn:focus{ 
+  background-color: #00AEEF;
+}
+
 /*
     When creating your CSS selector,
     change "brown" to something of your choosing
