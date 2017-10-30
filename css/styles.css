@@ -1,0 +1,121 @@
+/* Página de estilos - Link Pgto */
+body {
+    font-family: 'Open Sans', sans-serif;
+	background-image: url(../images/background.png);
+	background-color: #ececec;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin:0px;
+}
+
+
+.card{box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);}
+
+.clr {
+	clear:both;
+}
+
+#container{
+	margin:0 auto;
+	width:420px;
+	height: 580px;
+	background-color:#FFFFFF;
+	box-shadow: 0px 0px 5px #bbbbbb;
+	
+}
+
+
+.vertical-align{
+ position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header-logo { 
+	padding:30px 0px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+#form{
+	padding:20px 0px;
+}
+
+
+#entrar { 
+	width: 100%;
+	height: 50px;
+	color:#fff;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	background-color: #00aeef;
+  	box-shadow: 0px 5px 10px 0 rgba(0, 174, 239, 0.4);
+	margin:10px 0px;
+}
+
+
+/* Materialize Custom */
+/* label color */
+
+
+.input-field label {
+ color: #00aeef;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+ border-bottom: 1px solid #00aeef;
+ box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+ border-bottom: 1px solid #000;
+ box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #000;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+ color: #00aeef !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+ border-bottom: 1px solid #00aeef !important;
+ box-shadow: 0 1px 0 0 #00aeef !important;
+}
+
+/* label focus color */
+.input-field input[type=password]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+ color: #00aeef !important;
+}
+
+/* label underline focus color */
+.input-field input[type=password]:focus, .materialize-textarea:focus:not([readonly]) {
+ border-bottom: 1px solid #00aeef !important;
+ box-shadow: 0 1px 0 0 #00aeef !important;
+}
+
+/*
+    When creating your CSS selector,
+    change "brown" to something of your choosing
+    */
+    .waves-effect.waves-azul .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(0, 173, 239, 0.65);
+    }
+
+
+
+
+
