@@ -1,6 +1,25 @@
-/* Página de estilos - Link Pgto */
+/* Página de estilos */
+@font-face {
+	font-family: 'Fira';
+	font-weight: normal;
+	font-style: normal;
+	src: url( ../fonts/FiraSans-Regular.otf);
+}
+@font-face {
+	font-family: 'FiraMedium';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../fonts/FiraSans-Bold.otf);
+}
+@font-face {
+	font-family: 'FiraLight';
+	font-weight: normal;
+	font-style: normal;
+	src: url( ../fonts/FiraSans-Light.otf);
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira', sans-serif;
 	background-image: url(../images/background.png);
 	background-color: #ececec;
 }
@@ -9,6 +28,15 @@ h1 {
 	font-size: 18px;
 	font-weight: bold;
 	margin:0px;
+}
+
+a {
+	color:#00aeef;
+}
+
+.btn-large{
+	text-transform: none;
+	line-height: 50px;
 }
 
 
